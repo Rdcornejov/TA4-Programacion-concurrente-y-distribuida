@@ -318,5 +318,14 @@ func main() {
 - Simulación con 3 jugadores:
 
 Para comenzar, ejecutamos el archivo player.go tres veces, enviando el color del jugador, el nodo actual y el nodo de destino. En la compilación del archivo start_game.go, enviamos la cantidad de jugadores y el nodo remoto que dará inicio al juego.
+
 ![image](https://github.com/Rdcornejov/TA4-Programacion-concurrente-y-distribuida/assets/66271146/5de4d7bf-0736-40b1-a146-2861afd31c6d)
+
+En la primera ronda, todos los jugadores inicializan sus fichas. El archivo start_game.go envía el mapa del juego y la cantidad de jugadores para el proceso de inicialización. En la prueba, se observa que todos los jugadores recibieron el mismo mensaje, imprimiendo todos el mismo mapa.
+
+![image](https://github.com/Rdcornejov/TA4-Programacion-concurrente-y-distribuida/assets/66271146/76acd185-7791-4366-981b-f0ad36eacfa0)
+
+En las siguientes rondas, observamos que cada jugador comienza a mover sus fichas siguiendo algunas validaciones. Por ejemplo, todas las fichas comienzan en la posición 0, la meta es la posición 39, no existen casillas negativas, y si un jugador, al llegar a la meta, tiene un lanzamiento que, al sumarse a la posición actual, supera 39, entonces el jugador retrocede. También se observan validaciones para los obstáculos, mostrando un mensaje de que el jugador perdió su turno.
+
+![image](https://github.com/Rdcornejov/TA4-Programacion-concurrente-y-distribuida/assets/66271146/c2ecdde0-d79a-4620-aad3-26d7f2f3731b)
 
