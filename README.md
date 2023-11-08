@@ -312,3 +312,11 @@ func main() {
 
 ## Diagrama
 ![image](https://github.com/Rdcornejov/TA4-Programacion-concurrente-y-distribuida/assets/89090023/ef720722-415b-4333-9104-dde4bb279cb6)
+
+## Explicación de las pruebas realizadas y pegar las imágenes de evidencia. 
+
+- Simulación con 3 jugadores:
+
+Para comenzar, ejecutamos el archivo player.go tres veces, enviando el color del jugador, el nodo actual y el nodo de destino. En la compilación del archivo start_game.go, enviamos la cantidad de jugadores y el nodo remoto que dará inicio al juego.
+![image](https://github.com/Rdcornejov/TA4-Programacion-concurrente-y-distribuida/assets/66271146/5de4d7bf-0736-40b1-a146-2861afd31c6d)
+
