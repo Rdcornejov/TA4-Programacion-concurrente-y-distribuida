@@ -305,3 +305,10 @@ func main() {
 	}
 }
 ```
+
+### Uso de Mecanismos de Paralelización y Sincronización:
+- Canales (ficha1, ficha2, ficha3, ficha4): Los canales se utilizan para coordinar las acciones de las fichas de los jugadores. En la función turno_jugador, los canales ficha1, ficha2, ficha3 y ficha4 se utilizan para notificar al servidor de la selección de una ficha, el resultado del lanzamiento de los dados y la finalización del turno del jugador.
+- Goroutines: El código utiliza goroutines para ejecutar múltiples tareas en paralelo. El archivo player.go utiliza goroutines para manejar las conexiones entrantes, administrar el juego para cada jugador y enviar datos del juego al jugador conectado. Además, también nos permite representar a las fichas al momento de ser elegidas para jugar.
+
+## Diagrama
+![image](https://github.com/Rdcornejov/TA4-Programacion-concurrente-y-distribuida/assets/89090023/ef720722-415b-4333-9104-dde4bb279cb6)
