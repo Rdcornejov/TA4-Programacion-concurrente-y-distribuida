@@ -329,3 +329,7 @@ En las siguientes rondas, observamos que cada jugador comienza a mover sus ficha
 
 ![image](https://github.com/Rdcornejov/TA4-Programacion-concurrente-y-distribuida/assets/66271146/c2ecdde0-d79a-4620-aad3-26d7f2f3731b)
 
+Finalmente, el juego se detiene cuando un jugador gana, mostrando un mensaje de victoria. Se puede verificar el resultado observando el arreglo de fichas. Como se puede ver, todas las fichas están en la posición 39 y su atributo booleano que verifica que están en la meta es verdadero.
+
+![image](https://github.com/Rdcornejov/TA4-Programacion-concurrente-y-distribuida/assets/74325197/30ab59be-be95-4f51-b7d1-50a0814ead2f)
+
