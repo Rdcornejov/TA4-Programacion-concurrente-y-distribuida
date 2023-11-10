@@ -335,7 +335,7 @@ Finalmente, el juego se detiene cuando un jugador gana, mostrando un mensaje de 
 
 ## Enlace de github donde subió su código fuente y se pueda descargar 
 
-[https://github.com/ekarones/TA3_PROGRAMACION_CONCURRENTE_DISTRIBUIDA/tree/main](https://github.com/ekarones/TA3_PROGRAMACION_CONCURRENTE_DISTRIBUIDA/tree/main)
+[https://github.com/Rdcornejov/TA4-Programacion-concurrente-y-distribuida/tree/main](https://github.com/Rdcornejov/TA4-Programacion-concurrente-y-distribuida/tree/main)
 
 ## Enlace de vídeo presentando el funcionamiento de la aplicación 
 
